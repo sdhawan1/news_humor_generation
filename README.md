@@ -66,5 +66,7 @@ Please find code to perform the silly synonym replacement in the notebook "silly
 
 A script to score the outputs from the final step is included at "pungen-master/eval_filter_surprisal_scores.py", it should take the same arguments as step 3.1.
 
-
+For BERT-based evaluation, of the outputs, please see the notebook "Bert_humor_scoring". You will need to run the Preprocessing, training, and humor analysis sections.
+* Requirements: the data we used to train BERT is included in datasets/bert_training/, and some required preprocessing scripts should be included in the "helpers" folder.
+* please modify the parameter "fpath1" in the second cell of the "analysis" section to the directory of your model outputs.
 
